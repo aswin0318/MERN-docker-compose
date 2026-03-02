@@ -1,8 +1,8 @@
 services:
   backend:
     build: ./mern/backend
-    expose:
-      - "5050"
+    ports:
+      - "5050:5050"
     networks:
       - demo
     environment:
