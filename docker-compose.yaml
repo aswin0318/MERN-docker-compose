@@ -28,10 +28,8 @@ services:
     networks:
       - demo
     volumes:
-      - mong-data:/data/db
+      - mongo-data:/data/db
 
-volumes:
-  mong-data:
 
 networks:
   demo:
